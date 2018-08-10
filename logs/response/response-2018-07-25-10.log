@@ -1,0 +1,30 @@
+[2018-07-25T10:57:58.091] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: app started at port 3012...
+*************** info log end ***************
+
+[2018-07-25T10:58:53.764] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: app started at port 3012...
+*************** info log end ***************
+
+[2018-07-25T10:58:53.815] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取access_token请求参数 ====>https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxab77e84af1269540&secret=1a6bd784f8a52ad2c9d33b545d1a41c6
+*************** info log end ***************
+
+[2018-07-25T10:58:54.045] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取access_token成功 ====>{"errcode":40164,"errmsg":"invalid ip 223.223.195.188, not in whitelist hint: [35ZeIA05361501]"}
+*************** info log end ***************
+
+[2018-07-25T10:58:54.046] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取 Ticket 请求参数 ====>https://api.weixin.qq.com/cgi-bin/ticket/getticket?type=jsapi&access_token=undefined
+*************** info log end ***************
+
+[2018-07-25T10:58:54.211] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取 Ticket 成功 ====>{"errcode":40001,"errmsg":"invalid credential, access_token is invalid or not latest hint: [jxuGvA0536vr45!]"}
+*************** info log end ***************
+

@@ -1,0 +1,1646 @@
+[2018-07-30T18:01:33.958] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:01:35.337] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:01:35.740] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:01:35.740] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:01:35.750] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:01:35.751] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 0
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:01:35.754] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:01:35.771] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:01:35.771] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 31
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:01:46.313] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:01:46.865] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:01:46.866] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:01:46.872] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:01:46.899] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:01:46.899] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 34
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:01:46.979] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 0
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:01:46.984] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:01:49.762] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:01:49.762] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:01:49.809] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** info log end ***************
+
+[2018-07-30T18:01:49.809] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 47
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** response log end ***************
+
+[2018-07-30T18:01:51.850] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+*************** info log end ***************
+
+[2018-07-30T18:01:51.851] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}}
+*************** info log end ***************
+
+[2018-07-30T18:01:51.872] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** info log end ***************
+
+[2018-07-30T18:01:51.872] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+response time: 22
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** response log end ***************
+
+[2018-07-30T18:02:00.869] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"396"}
+*************** info log end ***************
+
+[2018-07-30T18:02:00.870] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"396"}}
+*************** info log end ***************
+
+[2018-07-30T18:02:00.900] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"}}}
+*************** info log end ***************
+
+[2018-07-30T18:02:00.900] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"396"}
+response time: 31
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"}}}
+*************** response log end ***************
+
+[2018-07-30T18:02:03.371] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}
+*************** info log end ***************
+
+[2018-07-30T18:02:03.371] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}}
+*************** info log end ***************
+
+[2018-07-30T18:02:03.393] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"}}}
+*************** info log end ***************
+
+[2018-07-30T18:02:03.393] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}
+response time: 22
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"}}}
+*************** response log end ***************
+
+[2018-07-30T18:06:24.065] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:06:24.745] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:06:24.746] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:06:24.755] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:06:24.763] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 0
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:06:24.766] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:06:24.776] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:06:24.776] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 31
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:06:26.962] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:06:26.962] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:06:27.008] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** info log end ***************
+
+[2018-07-30T18:06:27.008] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 46
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** response log end ***************
+
+[2018-07-30T18:06:28.959] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+*************** info log end ***************
+
+[2018-07-30T18:06:28.959] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}}
+*************** info log end ***************
+
+[2018-07-30T18:06:28.977] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** info log end ***************
+
+[2018-07-30T18:06:28.978] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+response time: 19
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** response log end ***************
+
+[2018-07-30T18:07:23.482] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+*************** info log end ***************
+
+[2018-07-30T18:07:23.482] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}}
+*************** info log end ***************
+
+[2018-07-30T18:07:23.504] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** info log end ***************
+
+[2018-07-30T18:07:23.504] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+response time: 22
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** response log end ***************
+
+[2018-07-30T18:08:28.776] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:08:29.347] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:08:29.347] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:08:29.351] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:08:29.373] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:08:29.374] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 28
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:08:29.441] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 0
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:08:29.444] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:08:48.693] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:08:48.693] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:08:48.736] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** info log end ***************
+
+[2018-07-30T18:08:48.736] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 43
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** response log end ***************
+
+[2018-07-30T18:08:56.746] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+*************** info log end ***************
+
+[2018-07-30T18:08:56.747] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}}
+*************** info log end ***************
+
+[2018-07-30T18:08:56.768] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** info log end ***************
+
+[2018-07-30T18:08:56.768] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+response time: 22
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** response log end ***************
+
+[2018-07-30T18:12:38.355] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:12:38.860] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:12:38.860] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:12:38.889] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:12:38.889] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 29
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:12:38.960] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:12:38.963] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 1
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:12:38.968] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:12:42.408] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:12:42.408] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:12:42.453] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** info log end ***************
+
+[2018-07-30T18:12:42.454] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 46
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** response log end ***************
+
+[2018-07-30T18:12:43.937] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+*************** info log end ***************
+
+[2018-07-30T18:12:43.938] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}}
+*************** info log end ***************
+
+[2018-07-30T18:12:43.995] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** info log end ***************
+
+[2018-07-30T18:12:43.995] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+response time: 58
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** response log end ***************
+
+[2018-07-30T18:12:57.361] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"396"}
+*************** info log end ***************
+
+[2018-07-30T18:12:57.361] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"396"}}
+*************** info log end ***************
+
+[2018-07-30T18:12:57.384] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"}}}
+*************** info log end ***************
+
+[2018-07-30T18:12:57.385] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"396"}
+response time: 24
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"}}}
+*************** response log end ***************
+
+[2018-07-30T18:13:01.587] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}
+*************** info log end ***************
+
+[2018-07-30T18:13:01.587] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}}
+*************** info log end ***************
+
+[2018-07-30T18:13:01.610] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"}}}
+*************** info log end ***************
+
+[2018-07-30T18:13:01.610] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}
+response time: 23
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"}}}
+*************** response log end ***************
+
+[2018-07-30T18:13:17.736] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"384"}
+*************** info log end ***************
+
+[2018-07-30T18:13:17.737] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"384"}}
+*************** info log end ***************
+
+[2018-07-30T18:13:17.761] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}}}
+*************** info log end ***************
+
+[2018-07-30T18:13:17.761] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"384"}
+response time: 25
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}}}
+*************** response log end ***************
+
+[2018-07-30T18:14:28.105] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+*************** info log end ***************
+
+[2018-07-30T18:14:28.105] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}}
+*************** info log end ***************
+
+[2018-07-30T18:14:28.126] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** info log end ***************
+
+[2018-07-30T18:14:28.126] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+response time: 22
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** response log end ***************
+
+[2018-07-30T18:15:16.974] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:15:17.699] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:15:17.699] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:15:17.705] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:15:17.728] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:15:17.729] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 30
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:15:17.796] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 0
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:15:17.804] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:15:19.732] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:15:19.733] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:15:19.779] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** info log end ***************
+
+[2018-07-30T18:15:19.779] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 47
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 海淀区","signArea":"","latitude":"39.980463","longitude":"116.300511"},{"id":396,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":384,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区南三环西路69号","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园-停车场","latitude":"39.858124081394074","longitude":"116.35251999999993"}]}}}
+*************** response log end ***************
+
+[2018-07-30T18:15:22.317] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+*************** info log end ***************
+
+[2018-07-30T18:15:22.317] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}}
+*************** info log end ***************
+
+[2018-07-30T18:15:22.339] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** info log end ***************
+
+[2018-07-30T18:15:22.339] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"403"}
+response time: 22
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":403,"userId":1500,"name":"阿萨德sad","phone":"","mobile":"18515079085","districtCode":"001001001008","isHost":"0","sex":"1","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.980463","longitude":"116.300511"}}}
+*************** response log end ***************
+
+[2018-07-30T18:16:28.215] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","region":"北京市","q":"2"}
+*************** info log end ***************
+
+[2018-07-30T18:16:28.215] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/place/v2/suggestion ]请求数据 ===>{"url":"http://api.map.baidu.com/place/v2/suggestion?isApp=2&channelNo=1000002&maxLen=1&branch=1001&channel=2&shopSn=B00019&region=%E5%8C%97%E4%BA%AC%E5%B8%82&q=2&ak=wv8VECbOOTu3TFWcI3jdcBC6&output=json","method":"GET","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"}}
+*************** info log end ***************
+
+[2018-07-30T18:16:28.418] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/place/v2/suggestion ]返回数据 ===>{"status":0,"message":"ok","result":[{"name":"地铁2号线","location":{"lat":39.946027,"lng":116.362113},"uid":"32c31282e310f2aacb213db7","province":"北京市","city":"北京市","district":"西城区","business":"","cityid":"131"},{"name":"北京首都国际机场-T2航站楼","location":{"lat":40.086705,"lng":116.600726},"uid":"40a2063020601fd6fa42b213","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"24小时便利超市","location":{"lat":39.948471,"lng":116.38281},"uid":"e889a744478896ac8605bf5e","province":"北京市","city":"北京市","district":"西城区","business":"","cityid":"131"},{"name":"24小时药店","location":{"lat":39.932906,"lng":116.619979},"uid":"0d891bf7a530fae79e82ea58","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"中国人民解放军第261医院","location":{"lat":40.122197,"lng":116.227547},"uid":"4c0a726bc564808ca1046419","province":"北京市","city":"北京市","district":"海淀区","business":"","cityid":"131"},{"name":"27度罗马风情婚纱影城","location":{"lat":39.844541,"lng":116.357293},"uid":"5bbeb7bf70e0bbaaf8221312","province":"北京市","city":"北京市","district":"丰台区","business":"","cityid":"131"},{"name":"22路","location":{"lat":39.90529,"lng":116.404887},"uid":"90248ea9ad2e8a57f21937b6","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"258电器大世界(时尚258广场店)","location":{"lat":39.950508,"lng":116.478243},"uid":"9fbfeef2ec899b38ede4a53f","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"DREAM2049国际文创产业园","location":{"lat":39.91818,"lng":116.579305},"uid":"cbb4f5a110b58a4ff82d61db","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"前门23号","location":{"lat":39.907456,"lng":116.407808},"uid":"38ccf7354adcc939d518b7ee","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"}]}
+*************** info log end ***************
+
+[2018-07-30T18:16:28.418] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/map/getUserAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","region":"北京市","q":"2"}
+response time: 203
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":[{"name":"地铁2号线","location":{"lat":39.946027,"lng":116.362113},"uid":"32c31282e310f2aacb213db7","province":"北京市","city":"北京市","district":"西城区","business":"","cityid":"131"},{"name":"北京首都国际机场-T2航站楼","location":{"lat":40.086705,"lng":116.600726},"uid":"40a2063020601fd6fa42b213","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"24小时便利超市","location":{"lat":39.948471,"lng":116.38281},"uid":"e889a744478896ac8605bf5e","province":"北京市","city":"北京市","district":"西城区","business":"","cityid":"131"},{"name":"24小时药店","location":{"lat":39.932906,"lng":116.619979},"uid":"0d891bf7a530fae79e82ea58","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"中国人民解放军第261医院","location":{"lat":40.122197,"lng":116.227547},"uid":"4c0a726bc564808ca1046419","province":"北京市","city":"北京市","district":"海淀区","business":"","cityid":"131"},{"name":"27度罗马风情婚纱影城","location":{"lat":39.844541,"lng":116.357293},"uid":"5bbeb7bf70e0bbaaf8221312","province":"北京市","city":"北京市","district":"丰台区","business":"","cityid":"131"},{"name":"22路","location":{"lat":39.90529,"lng":116.404887},"uid":"90248ea9ad2e8a57f21937b6","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"258电器大世界(时尚258广场店)","location":{"lat":39.950508,"lng":116.478243},"uid":"9fbfeef2ec899b38ede4a53f","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"DREAM2049国际文创产业园","location":{"lat":39.91818,"lng":116.579305},"uid":"cbb4f5a110b58a4ff82d61db","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"前门23号","location":{"lat":39.907456,"lng":116.407808},"uid":"38ccf7354adcc939d518b7ee","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"}]}
+*************** response log end ***************
+
+[2018-07-30T18:16:29.319] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.946027,116.362113"}
+*************** info log end ***************
+
+[2018-07-30T18:16:29.319] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]请求数据 ===>{"url":"http://api.map.baidu.com/geocoder/v2/?isApp=2&channelNo=1000002&maxLen=1&branch=1001&channel=2&shopSn=B00019&location=39.946027%2C116.362113&coordtype=bd09ll&pois=0&output=json&ak=wv8VECbOOTu3TFWcI3jdcBC6","method":"GET","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"}}
+*************** info log end ***************
+
+[2018-07-30T18:16:29.394] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]返回数据 ===>{"status":0,"result":{"location":{"lng":116.36211299999992,"lat":39.94602707453459},"formatted_address":"北京市西城区西直门桥","business":"西直门,动物园,官园","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"西城区","town":"","adcode":"110102","street":"西直门桥","street_number":"","direction":"","distance":""},"pois":[],"roads":[],"poiRegions":[],"sematic_description":"西直门(地铁站)附近0米","cityCode":131}}
+*************** info log end ***************
+
+[2018-07-30T18:16:29.395] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/map/getAddressDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.946027,116.362113"}
+response time: 76
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"status":0,"result":{"location":{"lng":116.36211299999992,"lat":39.94602707453459},"formatted_address":"北京市西城区西直门桥","business":"西直门,动物园,官园","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"西城区","town":"","adcode":"110102","street":"西直门桥","street_number":"","direction":"","distance":""},"pois":[],"roads":[],"poiRegions":[],"sematic_description":"西直门(地铁站)附近0米","cityCode":131}}}
+*************** response log end ***************
+
+[2018-07-30T18:17:15.204] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.932906,116.619979"}
+*************** info log end ***************
+
+[2018-07-30T18:17:15.204] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]请求数据 ===>{"url":"http://api.map.baidu.com/geocoder/v2/?isApp=2&channelNo=1000002&maxLen=1&branch=1001&channel=2&shopSn=B00019&location=39.932906%2C116.619979&coordtype=bd09ll&pois=0&output=json&ak=wv8VECbOOTu3TFWcI3jdcBC6","method":"GET","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"}}
+*************** info log end ***************
+
+[2018-07-30T18:17:15.300] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]返回数据 ===>{"status":0,"result":{"location":{"lng":116.61997899999993,"lat":39.93290607560358},"formatted_address":"北京市朝阳区草房西路","business":"","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"朝阳区","town":"","adcode":"110105","street":"草房西路","street_number":"","direction":"","distance":""},"pois":[],"roads":[],"poiRegions":[{"direction_desc":"内","name":"中弘·北京像素-北区","tag":"房地产;住宅区","uid":"865aa4709cb4c8a825e0a036"}],"sematic_description":"中弘·北京像素-北区内,北京馨馨公寓附近41米","cityCode":131}}
+*************** info log end ***************
+
+[2018-07-30T18:17:15.301] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/map/getAddressDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.932906,116.619979"}
+response time: 98
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"status":0,"result":{"location":{"lng":116.61997899999993,"lat":39.93290607560358},"formatted_address":"北京市朝阳区草房西路","business":"","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"朝阳区","town":"","adcode":"110105","street":"草房西路","street_number":"","direction":"","distance":""},"pois":[],"roads":[],"poiRegions":[{"direction_desc":"内","name":"中弘·北京像素-北区","tag":"房地产;住宅区","uid":"865aa4709cb4c8a825e0a036"}],"sematic_description":"中弘·北京像素-北区内,北京馨馨公寓附近41米","cityCode":131}}}
+*************** response log end ***************
+
+[2018-07-30T18:17:23.930] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","address":"北京市朝阳区草房西路","districtCode":"110000110100110101","isHost":"0","latitude":"39.932906","longitude":"116.619979","mobile":"18515079086","name":"呵呵呵","phone":"","postCode":"","userId":"1500","sex":"1"}
+*************** info log end ***************
+
+[2018-07-30T18:17:23.930] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300001.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300001.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","address":"北京市朝阳区草房西路","districtCode":"110000110100110101","isHost":"0","latitude":"39.932906","longitude":"116.619979","mobile":"18515079086","name":"呵呵呵","phone":"","postCode":"","userId":"1500","sex":"1"}}
+*************** info log end ***************
+
+[2018-07-30T18:17:23.961] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300001.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":404,"userId":1500,"name":"呵呵呵","phone":"","mobile":"18515079086","districtCode":"110000110100110101","isHost":"0","sex":"1","address":"北京市朝阳区草房西路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.932906","longitude":"116.619979"}}}
+*************** info log end ***************
+
+[2018-07-30T18:17:23.961] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddPer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","address":"北京市朝阳区草房西路","districtCode":"110000110100110101","isHost":"0","latitude":"39.932906","longitude":"116.619979","mobile":"18515079086","name":"呵呵呵","phone":"","postCode":"","userId":"1500","sex":"1"}
+response time: 31
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":404,"userId":1500,"name":"呵呵呵","phone":"","mobile":"18515079086","districtCode":"110000110100110101","isHost":"0","sex":"1","address":"北京市朝阳区草房西路","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.932906","longitude":"116.619979"}}}
+*************** response log end ***************
+
+[2018-07-30T18:17:24.230] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:17:24.231] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:17:24.261] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"777777","message":"系统出错了","result":{}}
+*************** info log end ***************
+
+[2018-07-30T18:17:24.261] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 31
+response status: 200
+response body: 
+{"code":"777777","message":"系统出错了","result":{}}
+*************** response log end ***************
+
+[2018-07-30T18:18:12.316] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}
+*************** info log end ***************
+
+[2018-07-30T18:18:12.317] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}}
+*************** info log end ***************
+
+[2018-07-30T18:18:12.340] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"}}}
+*************** info log end ***************
+
+[2018-07-30T18:18:12.341] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"395"}
+response time: 24
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":395,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"1","address":"北京市朝阳区双桥东路1号院-4号楼-1层","houseNumber":null,"postCode":"","areas":"","signArea":"管庄-地铁站","latitude":"39.91490707704461","longitude":"116.60578199999993"}}}
+*************** response log end ***************
+
+[2018-07-30T18:18:29.688] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:18:29.938] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:18:29.938] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:18:29.946] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:18:29.966] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:18:29.966] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 28
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:18:30.028] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 0
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:18:30.052] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:18:31.961] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:18:31.962] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:18:31.992] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"777777","message":"系统出错了","result":{}}
+*************** info log end ***************
+
+[2018-07-30T18:18:31.992] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 31
+response status: 200
+response body: 
+{"code":"777777","message":"系统出错了","result":{}}
+*************** response log end ***************
+
+[2018-07-30T18:19:29.607] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:19:30.298] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:19:30.298] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:19:30.304] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:19:30.327] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:19:30.328] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 30
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:19:30.412] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 0
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:19:30.416] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:19:33.850] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:19:33.851] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:19:33.881] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"777777","message":"系统出错了","result":{}}
+*************** info log end ***************
+
+[2018-07-30T18:19:33.882] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 32
+response status: 200
+response body: 
+{"code":"777777","message":"系统出错了","result":{}}
+*************** response log end ***************
+
+[2018-07-30T18:19:46.804] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","region":"北京市","q":"1"}
+*************** info log end ***************
+
+[2018-07-30T18:19:46.804] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/place/v2/suggestion ]请求数据 ===>{"url":"http://api.map.baidu.com/place/v2/suggestion?isApp=2&channelNo=1000002&maxLen=1&branch=1001&channel=2&shopSn=B00019&region=%E5%8C%97%E4%BA%AC%E5%B8%82&q=1&ak=wv8VECbOOTu3TFWcI3jdcBC6&output=json","method":"GET","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"}}
+*************** info log end ***************
+
+[2018-07-30T18:19:46.957] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/place/v2/suggestion ]返回数据 ===>{"status":0,"message":"ok","result":[{"name":"地铁10号线","location":{"lat":39.980463,"lng":116.300511},"uid":"de6d05290c19ca50a2d230b7","province":"北京市","city":"北京市","district":"海淀区","business":"","cityid":"131"},{"name":"103路","location":{"lat":39.910697,"lng":116.430799},"uid":"08ddf01e54ffab581df74db6","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"13拾叁先生酒吧","location":{"lat":39.934978,"lng":116.451077},"uid":"bd44539e687d7025c909f0a7","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"北京首都国际机场-T1航站楼","location":{"lat":40.086792,"lng":116.594566},"uid":"a93795baef6b42ffa6da39b0","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"北京111文化产业园","location":{"lat":39.858559,"lng":116.351782},"uid":"548dd47aff505da961685843","province":"北京市","city":"北京市","district":"丰台区","business":"","cityid":"131"},{"name":"1949(金宝街店)","location":{"lat":39.92088,"lng":116.42702},"uid":"e96b44200add384082288a1d","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"106餐厅(十里河家宴店)","location":{"lat":39.873201,"lng":116.469382},"uid":"a5097bfaa502da7af03cbafe","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"108路","location":{"lat":39.906521,"lng":116.425546},"uid":"59d69148a87161f27f29bdb7","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"1点点(天作国际店)","location":{"lat":39.966532,"lng":116.330088},"uid":"664a39dc6dbd3db7d7851f44","province":"北京市","city":"北京市","district":"海淀区","business":"","cityid":"131"},{"name":"1901咖啡(西四店)","location":{"lat":39.928917,"lng":116.384742},"uid":"31f9101b60d1e9a026e0a032","province":"北京市","city":"北京市","district":"西城区","business":"","cityid":"131"}]}
+*************** info log end ***************
+
+[2018-07-30T18:19:46.957] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/map/getUserAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","region":"北京市","q":"1"}
+response time: 154
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":[{"name":"地铁10号线","location":{"lat":39.980463,"lng":116.300511},"uid":"de6d05290c19ca50a2d230b7","province":"北京市","city":"北京市","district":"海淀区","business":"","cityid":"131"},{"name":"103路","location":{"lat":39.910697,"lng":116.430799},"uid":"08ddf01e54ffab581df74db6","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"13拾叁先生酒吧","location":{"lat":39.934978,"lng":116.451077},"uid":"bd44539e687d7025c909f0a7","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"北京首都国际机场-T1航站楼","location":{"lat":40.086792,"lng":116.594566},"uid":"a93795baef6b42ffa6da39b0","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"北京111文化产业园","location":{"lat":39.858559,"lng":116.351782},"uid":"548dd47aff505da961685843","province":"北京市","city":"北京市","district":"丰台区","business":"","cityid":"131"},{"name":"1949(金宝街店)","location":{"lat":39.92088,"lng":116.42702},"uid":"e96b44200add384082288a1d","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"106餐厅(十里河家宴店)","location":{"lat":39.873201,"lng":116.469382},"uid":"a5097bfaa502da7af03cbafe","province":"北京市","city":"北京市","district":"朝阳区","business":"","cityid":"131"},{"name":"108路","location":{"lat":39.906521,"lng":116.425546},"uid":"59d69148a87161f27f29bdb7","province":"北京市","city":"北京市","district":"东城区","business":"","cityid":"131"},{"name":"1点点(天作国际店)","location":{"lat":39.966532,"lng":116.330088},"uid":"664a39dc6dbd3db7d7851f44","province":"北京市","city":"北京市","district":"海淀区","business":"","cityid":"131"},{"name":"1901咖啡(西四店)","location":{"lat":39.928917,"lng":116.384742},"uid":"31f9101b60d1e9a026e0a032","province":"北京市","city":"北京市","district":"西城区","business":"","cityid":"131"}]}
+*************** response log end ***************
+
+[2018-07-30T18:19:47.559] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.980463,116.300511"}
+*************** info log end ***************
+
+[2018-07-30T18:19:47.560] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]请求数据 ===>{"url":"http://api.map.baidu.com/geocoder/v2/?isApp=2&channelNo=1000002&maxLen=1&branch=1001&channel=2&shopSn=B00019&location=39.980463%2C116.300511&coordtype=bd09ll&pois=0&output=json&ak=wv8VECbOOTu3TFWcI3jdcBC6","method":"GET","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"}}
+*************** info log end ***************
+
+[2018-07-30T18:19:47.635] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]返回数据 ===>{"status":0,"result":{"location":{"lng":116.30051099999993,"lat":39.98046307165605},"formatted_address":"北京市海淀区巴沟路","business":"万柳,苏州桥,颐和园","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"海淀区","town":"","adcode":"110108","street":"巴沟路","street_number":"","direction":"","distance":""},"pois":[],"roads":[],"poiRegions":[{"direction_desc":"内","name":"神州租车(巴沟店)","tag":"汽车服务;汽车租赁","uid":"46c526935d219e98f7b91633"}],"sematic_description":"神州租车(巴沟店)内","cityCode":131}}
+*************** info log end ***************
+
+[2018-07-30T18:19:47.635] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/map/getAddressDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.980463,116.300511"}
+response time: 76
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"status":0,"result":{"location":{"lng":116.30051099999993,"lat":39.98046307165605},"formatted_address":"北京市海淀区巴沟路","business":"万柳,苏州桥,颐和园","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"海淀区","town":"","adcode":"110108","street":"巴沟路","street_number":"","direction":"","distance":""},"pois":[],"roads":[],"poiRegions":[{"direction_desc":"内","name":"神州租车(巴沟店)","tag":"汽车服务;汽车租赁","uid":"46c526935d219e98f7b91633"}],"sematic_description":"神州租车(巴沟店)内","cityCode":131}}}
+*************** response log end ***************
+
+[2018-07-30T18:19:49.871] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.934978,116.451077"}
+*************** info log end ***************
+
+[2018-07-30T18:19:49.872] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]请求数据 ===>{"url":"http://api.map.baidu.com/geocoder/v2/?isApp=2&channelNo=1000002&maxLen=1&branch=1001&channel=2&shopSn=B00019&location=39.934978%2C116.451077&coordtype=bd09ll&pois=0&output=json&ak=wv8VECbOOTu3TFWcI3jdcBC6","method":"GET","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"}}
+*************** info log end ***************
+
+[2018-07-30T18:19:50.028] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://api.map.baidu.com/geocoder/v2/ ]返回数据 ===>{"status":0,"result":{"location":{"lng":116.45107699999993,"lat":39.9349780754358},"formatted_address":"北京市朝阳区工体西路6号","business":"工体,朝阳门,朝外","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"朝阳区","town":"","adcode":"110105","street":"工体西路","street_number":"6号","direction":"附近","distance":"46"},"pois":[],"roads":[],"poiRegions":[],"sematic_description":"鹿港小镇(工体西路分店)东北70米","cityCode":131}}
+*************** info log end ***************
+
+[2018-07-30T18:19:50.028] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/map/getAddressDetail
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","location":"39.934978,116.451077"}
+response time: 157
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"status":0,"result":{"location":{"lng":116.45107699999993,"lat":39.9349780754358},"formatted_address":"北京市朝阳区工体西路6号","business":"工体,朝阳门,朝外","addressComponent":{"country":"中国","country_code":0,"country_code_iso":"CHN","country_code_iso2":"CN","province":"北京市","city":"北京市","city_level":2,"district":"朝阳区","town":"","adcode":"110105","street":"工体西路","street_number":"6号","direction":"附近","distance":"46"},"pois":[],"roads":[],"poiRegions":[],"sematic_description":"鹿港小镇(工体西路分店)东北70米","cityCode":131}}}
+*************** response log end ***************
+
+[2018-07-30T18:19:52.823] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","address":"北京市朝阳区工体西路6号","districtCode":"001001001001","isHost":"0","latitude":"39.934978","longitude":"116.451077","mobile":"18515079086","name":"阿萨德啊啊","phone":"","postCode":"","userId":"1500","sex":"1"}
+*************** info log end ***************
+
+[2018-07-30T18:19:52.823] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300001.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300001.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","address":"北京市朝阳区工体西路6号","districtCode":"001001001001","isHost":"0","latitude":"39.934978","longitude":"116.451077","mobile":"18515079086","name":"阿萨德啊啊","phone":"","postCode":"","userId":"1500","sex":"1"}}
+*************** info log end ***************
+
+[2018-07-30T18:19:52.853] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300001.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":405,"userId":1500,"name":"阿萨德啊啊","phone":"","mobile":"18515079086","districtCode":"001001001001","isHost":"0","sex":"1","address":"北京市朝阳区工体西路6号","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.934978","longitude":"116.451077"}}}
+*************** info log end ***************
+
+[2018-07-30T18:19:52.853] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddPer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","address":"北京市朝阳区工体西路6号","districtCode":"001001001001","isHost":"0","latitude":"39.934978","longitude":"116.451077","mobile":"18515079086","name":"阿萨德啊啊","phone":"","postCode":"","userId":"1500","sex":"1"}
+response time: 31
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":405,"userId":1500,"name":"阿萨德啊啊","phone":"","mobile":"18515079086","districtCode":"001001001001","isHost":"0","sex":"1","address":"北京市朝阳区工体西路6号","houseNumber":null,"postCode":"","areas":"","signArea":"","latitude":"39.934978","longitude":"116.451077"}}}
+*************** response log end ***************
+
+[2018-07-30T18:19:53.111] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:19:53.111] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:19:53.149] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"777777","message":"系统出错了","result":{}}
+*************** info log end ***************
+
+[2018-07-30T18:19:53.149] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 38
+response status: 200
+response body: 
+{"code":"777777","message":"系统出错了","result":{}}
+*************** response log end ***************
+
+[2018-07-30T18:40:22.570] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:40:22.809] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+*************** info log end ***************
+
+[2018-07-30T18:40:22.809] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-30T18:40:22.814] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/brandlist
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:40:22.818] [ERROR] /middleware/auth - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/indexDevLi
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","adverPlaceSign":"INDEXADVER","bannerPlaceSign":"BANNERDVER","floorTypePageCount":"4"}
+response time: 1
+err name: ReferenceError
+err message: req is not defined
+err stack: ReferenceError: req is not defined
+    at Object.<anonymous> (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\koa-history-api-fallback\lib\index.js:84:29)
+    at Generator.next (<anonymous>)
+    at onFulfilled (C:\Users\DELL\Desktop\shop-api-webapp\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+*************** error log end ***************
+
+[2018-07-30T18:40:22.841] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-30T18:40:22.841] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 32
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-30T18:40:22.927] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/vipSpecProduct
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019"}
+response time: 0
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-30T18:40:24.636] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-30T18:40:24.636] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-30T18:40:24.669] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"777777","message":"系统出错了","result":{}}
+*************** info log end ***************
+
+[2018-07-30T18:40:24.669] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 34
+response status: 200
+response body: 
+{"code":"777777","message":"系统出错了","result":{}}
+*************** response log end ***************
+

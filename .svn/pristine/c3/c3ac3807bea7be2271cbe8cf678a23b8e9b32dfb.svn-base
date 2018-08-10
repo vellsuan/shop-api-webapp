@@ -1,0 +1,448 @@
+"use strict";
+var Base = require("./../../controller/base/baseAction.js");
+var log = require("../../utils/logUtil.js")("userAction");
+var userService = require("../../service/home/userService");
+var Wechat = require("../../wechat-api/Wechat.js");
+
+// 绑定用户手机号
+exports.bindPhoneUser = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.bindPhoneUser(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 绑定用户获取验证码
+exports.getVcode = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.getVcode(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 用户订单中心
+exports.userOrderCenter = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.userOrderCenter(params);
+  Base.getResponseRes(ctx, obj);
+};
+// 用户订单
+exports.userOrderDetail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.userOrderDetail(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//用户订单中心-积分管理（明细）-总积分
+exports.integralTotal = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.integralTotal(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//用户订单中心-积分管理（明细）
+exports.integralManage = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.integralManage(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 用户详情信息
+exports.userDetailCenter = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.userDetailCenter(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 用户订单中心-积分兑换
+exports.integralExchange = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.integralExchange(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 用户订单中心-积分兑换-获取默认地址
+exports.getShippingAddress = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.getShippingAddress(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// // 用户订单中心-积分兑换-立即兑换
+// exports.redeemNow = async (ctx, next) => {
+//   var params = Base.getParams(ctx);
+//   var obj = await userService.redeemNow(params);
+//   Base.getResponseRes(ctx, obj);
+// };
+
+// 用户订单中心-积分兑换-兑换记录
+exports.recordData = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.recordData(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 用户订单中心-积分兑换-兑换记录详情
+exports.recordDataDetail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.recordDataDetail(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//用户订单中心-积分兑换-兑换记录详情-确认收货
+exports.confirmReceipt = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.confirmReceipt(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//用户订单中心-积分兑换-兑换记录详情-删除兑换记录
+exports.delRedemption = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.delRedemption(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 获取轮播图
+exports.getListBanner = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.getListBanner(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//个人中心-积分明细页面
+exports.integral = async (ctx, next) => {
+  let rqdata = Base.getParams(ctx);
+  await Base.htmlRender(ctx, "integral");
+};
+
+//会员卡
+exports.membersright = async (ctx, next) => {
+  let rqdata = Base.getParams(ctx);
+  await Base.htmlRender(ctx, "membersright");
+};
+
+// 个人中心
+exports.usercenter = async (ctx, next) => {
+  let rqdata = Base.getParams(ctx);
+  await Base.htmlRender(ctx, "usercenter");
+};
+
+//优惠券
+exports.getListCoupon = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.getListCoupon(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//提交评价
+exports.submitReview = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.submitReview(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 订单确认
+exports.orderConfirmation = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.orderConfirmation(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 登录
+exports.login = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.login(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 完善用户信息
+exports.addUserInfo = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.addUserInfo(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 绑定邮箱
+exports.addEmail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  params.client = 2;
+  var obj = await userService.addEmail(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 收货地址添加和修改
+exports.addAddress = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  if (params.id) {
+    var obj = await userService.modifyAddress(params);
+  } else {
+    var obj = await userService.addAddress(params);
+  }
+  Base.getResponseRes(ctx, obj);
+};
+
+// 反显收货地址
+exports.getAddressDetail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.getAddressDetail(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// // 收货地址修改
+// exports.modifyAddress = async (ctx,next)=>{
+// 	var params = Base.getParams(ctx);
+// 	var obj = await userService.modifyAddress(params);
+// 	Base.getResponseRes(ctx, obj);
+// }
+
+// 收货地址列表
+exports.addressList = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.addressList(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 收货地址删除
+exports.delAddress = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.delAddress(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//设置默认收货地址
+exports.isHostAddress = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.isHostAddress(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//转赠优惠券
+exports.transferCoupons = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.transferCoupons(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 取消原因
+exports.whyCancel = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.whyCancel(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 取消订单
+exports.cancelOrder = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.cancelOrder(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 获取卡详情
+exports.getCardDetail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.getCardDetail(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 取消卡订单
+exports.cancelCardOrder = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.cancelCardOrder(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 查看兑换商品详情
+exports.getGoodsDetail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.getGoodsDetail(params);
+  Base.getResponseRes(ctx, obj);
+};
+// 我的订单
+exports.getGoodsDetail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+	var obj = await userService.getGoodsDetail(params);
+  Base.getResponseRes(ctx, obj);
+};
+// 我的订单列表
+exports.myOrderList = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var data = await userService.myOrderList(params);
+  var json = {
+    code: data.code,
+    message: data.message,
+    result: data.result || ""
+  };
+  Base.getResponseRes(ctx, json);
+};
+//删除订单
+exports.orderDelete = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var data = await userService.orderDelete(params);
+  Base.getResponseRes(ctx, data);
+};
+//订单详情
+exports.orderDetail = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var data = await userService.orderDetail(params);
+  Base.getResponseRes(ctx, data);
+};
+//取消订单
+exports.orderCancel = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var data = await userService.orderCancel(params);
+  Base.getResponseRes(ctx, data);
+};
+//评价订单
+exports.allRoundEvaluation = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var data = await userService.evaluateOrderDetail(params);
+  Base.getResponseRes(ctx, data);
+};
+//提交评价
+exports.releaseEvalute = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var data = await userService.releaseEvalute(params);
+  Base.getResponseRes(ctx, data);
+};
+
+//----------------积分开始--------------------//
+// 用户订单中心-积分兑换列表
+exports.integralList = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.integralList(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 用户订单中心-积分兑换列表-立即兑换
+exports.redeemNow = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.redeemNow(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 用户订单中心-积分兑换列表-获取用户总积分
+exports.queryPointByuserId = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryPointByuserId(params);
+  Base.getResponseRes(ctx, obj);
+};
+//----------------积分结束--------------------//
+
+
+//设置支付密码
+exports.setPayPassword = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.setPayPassword(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//修改支付密码
+exports.modifyPayPassword = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.modifyPayPassword(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//获取用户信息
+exports.getUserInfo = async (ctx, next) => {
+	var userInfo = Base.getUserInfo(ctx);
+  Base.getResponseRes(ctx, {"result":userInfo});
+};
+
+//修改用户信息
+
+exports.prefectInfo = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.prefectInfo(params);
+  if(obj.code != "000000") {
+		obj.code = "222222"
+	} else if(obj.code == "000000") {
+		var userInfo = Base.getSessionData(ctx.session, "sessionConstant_userInfo") || {};
+		obj = await queryUserInfo(ctx, userInfo.user.userId)
+	}
+  Base.getResponseRes(ctx, obj);
+}
+//会员特权
+exports.appPrivilegeList = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.appPrivilegeList(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+/**
+ * 查询用户信息
+ * @param next
+ */
+var queryUserInfo = async (ctx , userId) => {
+	var userData = await Base.userService.queryUserInfoByUserId({"userId":1464});
+	if(userData.code == "000000") {
+		Base.saveSessionData(ctx.session, "sessionConstant_userInfo", userData.result);
+		userData.result = userData.result.user || {};
+	}
+	return userData;
+}
+
+//----------------我的钱包开始--------------------//
+
+//获取我的钱包金额
+exports.getMyPurseMoney = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryUserInfoByUserId(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//收支明细
+exports.queryBudgetList = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryBudgetList(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+// 充值反显充值金额
+exports.moneyList = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.moneyList(params);
+  Base.getResponseRes(ctx, obj);
+};
+//充值特权介绍
+exports.privilegeList = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.privilegeList(params);
+  Base.getResponseRes(ctx, obj);
+};
+//----------------我的钱包结束--------------------//
+
+//----------------地址库开始--------------------//
+exports.queryAddress = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryAddress(params);
+  Base.getResponseRes(ctx, obj);
+};
+exports.queryPersonal = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryPersonal(params);
+  Base.getResponseRes(ctx, obj);
+};
+exports.queryAddPer = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryAddPer(params);
+  Base.getResponseRes(ctx, obj);
+};
+exports.queryAddressDefault = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryAddressDefault(params);
+  Base.getResponseRes(ctx, obj);
+};
+exports.queryAddressEdit = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryAddressEdit(params);
+  Base.getResponseRes(ctx, obj);
+};
+
+//----------------地址库结束--------------------//
+//----------------优惠券开始--------------------//
+exports.queryCoupon = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  var obj = await userService.queryCoupon(params);
+  Base.getResponseRes(ctx, obj);
+};
+//----------------优惠券结束--------------------//

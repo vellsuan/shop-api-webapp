@@ -1,0 +1,56 @@
+[2018-07-31T17:00:39.779] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-31T17:00:39.780] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-31T17:00:39.843] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":4,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":411,"userId":1500,"name":"啊啊啊啊啊","phone":"","mobile":"18515079084","districtCode":"001001001001","isHost":"0","sex":"0","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"39.980463","longitude":"116.300511"},{"id":412,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079085","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市西城区西直门桥","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁2号线","latitude":"39.946027","longitude":"116.362113"},{"id":410,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079086","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"39.980463","longitude":"116.300511"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"1862","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市海淀区西四环中路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"中国人民解放军总医院","latitude":"39.91096","longitude":"116.282965"}]}}}
+*************** info log end ***************
+
+[2018-07-31T17:00:39.844] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 65
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":4,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":411,"userId":1500,"name":"啊啊啊啊啊","phone":"","mobile":"18515079084","districtCode":"001001001001","isHost":"0","sex":"0","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"39.980463","longitude":"116.300511"},{"id":412,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079085","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市西城区西直门桥","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁2号线","latitude":"39.946027","longitude":"116.362113"},{"id":410,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079086","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"39.980463","longitude":"116.300511"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"1862","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市海淀区西四环中路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"中国人民解放军总医院","latitude":"39.91096","longitude":"116.282965"}]}}}
+*************** response log end ***************
+
+[2018-07-31T17:03:35.326] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-31T17:03:35.326] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-31T17:03:35.397] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":416,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"0","sex":"1","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"39.85855908136192","longitude":"116.35178199999993"},{"id":412,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079085","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市西城区西直门桥","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁2号线","latitude":"39.946027","longitude":"116.362113"},{"id":411,"userId":1500,"name":"啊啊啊啊啊","phone":"","mobile":"18515079084","districtCode":"001001001001","isHost":"1","sex":"1","address":"淀区","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"null","longitude":"null"},{"id":410,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079086","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"39.980463","longitude":"116.300511"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"1862","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市海淀区西四环中路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"中国人民解放军总医院","latitude":"39.91096","longitude":"116.282965"}]}}}
+*************** info log end ***************
+
+[2018-07-31T17:03:35.397] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 71
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":5,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":416,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"0","sex":"1","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"39.85855908136192","longitude":"116.35178199999993"},{"id":412,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079085","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市西城区西直门桥","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁2号线","latitude":"39.946027","longitude":"116.362113"},{"id":411,"userId":1500,"name":"啊啊啊啊啊","phone":"","mobile":"18515079084","districtCode":"001001001001","isHost":"1","sex":"1","address":"淀区","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"null","longitude":"null"},{"id":410,"userId":1500,"name":"阿萨德","phone":"","mobile":"18515079086","districtCode":"001001001001","isHost":"1","sex":"0","address":"北京市海淀区巴沟路","houseNumber":null,"postCode":"","areas":"北京市 北京市 东城区","signArea":"地铁10号线","latitude":"39.980463","longitude":"116.300511"},{"id":385,"userId":1500,"name":"18618196312","phone":"","mobile":"1862","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市海淀区西四环中路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"中国人民解放军总医院","latitude":"39.91096","longitude":"116.282965"}]}}}
+*************** response log end ***************
+

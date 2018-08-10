@@ -1,0 +1,84 @@
+[2018-08-01T17:01:23.318] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-08-01T17:01:23.319] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/DE100016.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/DE100016.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-08-01T17:01:23.366] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/DE100016.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"account":{"accountId":256,"accountNo":"620054301786340","accountType":"6200","accountProperty":"1","userId":1500,"custId":null,"custName":null,"cashAmount":53121.73,"freezeAmount":0,"canExtractAmount":null,"accountStatus":"00","createTime":1522374279878,"lastTime":1522374279878,"payPassword":"f4cc399f0effd13c888e310ea2cf5399","paymentCode":"621587415594709","expirationTime":1533113928369,"branch":"1001","branchName":"D5厨房","channel":"1","financingAmount":null,"financingUsableAmount":0,"financingOriginAmount":null,"redBagAmount":1561.36,"financingStartTime":null,"financingEndTime":null,"financingSatus":0}}}
+*************** info log end ***************
+
+[2018-08-01T17:01:23.366] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryCode
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 48
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"account":{"accountId":256,"accountNo":"620054301786340","accountType":"6200","accountProperty":"1","userId":1500,"custId":null,"custName":null,"cashAmount":53121.73,"freezeAmount":0,"canExtractAmount":null,"accountStatus":"00","createTime":1522374279878,"lastTime":1522374279878,"payPassword":"f4cc399f0effd13c888e310ea2cf5399","paymentCode":"621587415594709","expirationTime":1533113928369,"branch":"1001","branchName":"D5厨房","channel":"1","financingAmount":null,"financingUsableAmount":0,"financingOriginAmount":null,"redBagAmount":1561.36,"financingStartTime":null,"financingEndTime":null,"financingSatus":0}}}
+*************** response log end ***************
+
+[2018-08-01T17:03:23.363] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-08-01T17:03:23.363] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/DE100016.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/DE100016.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-08-01T17:03:23.408] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/DE100016.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"account":{"accountId":256,"accountNo":"620054301786340","accountType":"6200","accountProperty":"1","userId":1500,"custId":null,"custName":null,"cashAmount":53121.73,"freezeAmount":0,"canExtractAmount":null,"accountStatus":"00","createTime":1522374279878,"lastTime":1522374279878,"payPassword":"f4cc399f0effd13c888e310ea2cf5399","paymentCode":"621587415714751","expirationTime":1533114048411,"branch":"1001","branchName":"D5厨房","channel":"1","financingAmount":null,"financingUsableAmount":0,"financingOriginAmount":null,"redBagAmount":1561.36,"financingStartTime":null,"financingEndTime":null,"financingSatus":0}}}
+*************** info log end ***************
+
+[2018-08-01T17:03:23.409] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryCode
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 46
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"account":{"accountId":256,"accountNo":"620054301786340","accountType":"6200","accountProperty":"1","userId":1500,"custId":null,"custName":null,"cashAmount":53121.73,"freezeAmount":0,"canExtractAmount":null,"accountStatus":"00","createTime":1522374279878,"lastTime":1522374279878,"payPassword":"f4cc399f0effd13c888e310ea2cf5399","paymentCode":"621587415714751","expirationTime":1533114048411,"branch":"1001","branchName":"D5厨房","channel":"1","financingAmount":null,"financingUsableAmount":0,"financingOriginAmount":null,"redBagAmount":1561.36,"financingStartTime":null,"financingEndTime":null,"financingSatus":0}}}
+*************** response log end ***************
+
+[2018-08-01T17:05:23.401] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+*************** info log end ***************
+
+[2018-08-01T17:05:23.401] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/DE100016.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/DE100016.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}}
+*************** info log end ***************
+
+[2018-08-01T17:05:23.445] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/DE100016.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"account":{"accountId":256,"accountNo":"620054301786340","accountType":"6200","accountProperty":"1","userId":1500,"custId":null,"custName":null,"cashAmount":53121.73,"freezeAmount":0,"canExtractAmount":null,"accountStatus":"00","createTime":1522374279878,"lastTime":1522374279878,"payPassword":"f4cc399f0effd13c888e310ea2cf5399","paymentCode":"621587415834788","expirationTime":1533114168448,"branch":"1001","branchName":"D5厨房","channel":"1","financingAmount":null,"financingUsableAmount":0,"financingOriginAmount":null,"redBagAmount":1561.36,"financingStartTime":null,"financingEndTime":null,"financingSatus":0}}}
+*************** info log end ***************
+
+[2018-08-01T17:05:23.445] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryCode
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","userId":"1500"}
+response time: 44
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"account":{"accountId":256,"accountNo":"620054301786340","accountType":"6200","accountProperty":"1","userId":1500,"custId":null,"custName":null,"cashAmount":53121.73,"freezeAmount":0,"canExtractAmount":null,"accountStatus":"00","createTime":1522374279878,"lastTime":1522374279878,"payPassword":"f4cc399f0effd13c888e310ea2cf5399","paymentCode":"621587415834788","expirationTime":1533114168448,"branch":"1001","branchName":"D5厨房","channel":"1","financingAmount":null,"financingUsableAmount":0,"financingOriginAmount":null,"redBagAmount":1561.36,"financingStartTime":null,"financingEndTime":null,"financingSatus":0}}}
+*************** response log end ***************
+

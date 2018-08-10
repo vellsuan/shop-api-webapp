@@ -1,0 +1,28 @@
+[2018-07-31T18:44:20.956] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"416"}
+*************** info log end ***************
+
+[2018-07-31T18:44:20.957] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"416"}}
+*************** info log end ***************
+
+[2018-07-31T18:44:20.983] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":416,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"0","sex":"1","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"","signArea":"北京111文化产业园","latitude":"39.85855908136192","longitude":"116.35178199999993"}}}
+*************** info log end ***************
+
+[2018-07-31T18:44:20.983] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","shopSn":"B00019","id":"416"}
+response time: 29
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":416,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"0","sex":"1","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"","signArea":"北京111文化产业园","latitude":"39.85855908136192","longitude":"116.35178199999993"}}}
+*************** response log end ***************
+

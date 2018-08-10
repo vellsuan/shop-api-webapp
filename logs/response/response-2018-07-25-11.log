@@ -1,0 +1,516 @@
+[2018-07-25T11:00:52.390] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 14
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:00:53.255] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:00:53.255] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:00:53.286] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:00:53.286] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 33
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:02:00.070] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:02:00.784] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:02:00.784] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:02:00.812] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:02:00.812] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 29
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:02:07.125] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wx/wxAauthSDK
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 8
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"nonceStr":"m35wf5f7pd","timestamp":"1532487727","signature":"f5ac874936cb54a9e087e1732774cd4daf0c0b2f","appid":"wxab77e84af1269540"}}
+*************** response log end ***************
+
+[2018-07-25T11:02:53.899] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:02:54.452] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:02:54.453] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:02:54.480] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:02:54.481] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 29
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:02:57.458] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wx/wxAauthSDK
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 2
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"nonceStr":"ha21sca715e","timestamp":"1532487777","signature":"8b36eeb31fc5e17a18ee40f748ff10567663fd6d","appid":"wxab77e84af1269540"}}
+*************** response log end ***************
+
+[2018-07-25T11:03:49.777] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:03:50.434] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:03:50.434] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:03:50.463] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:03:50.464] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 30
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:03:54.298] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wx/wxAauthSDK
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 3
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"nonceStr":"re3cdjbcpu","timestamp":"1532487834","signature":"52132183477db1fd6d10f62d27862f4cb62a5b87","appid":"wxab77e84af1269540"}}
+*************** response log end ***************
+
+[2018-07-25T11:04:20.081] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:04:20.536] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:04:20.536] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:04:23.560] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:04:23.561] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 3026
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:04:25.622] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wxAauthSDK
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-25T11:04:56.725] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:04:57.254] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:04:57.254] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:04:57.281] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:04:57.281] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 27
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:05:00.137] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/wx/wxAauthSDK
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 3
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"nonceStr":"lwxlncz16pi","timestamp":"1532487900","signature":"97a468de9a7489de17f3f5752eef226fc9728755","appid":"wxab77e84af1269540"}}
+*************** response log end ***************
+
+[2018-07-25T11:15:18.032] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:15:18.508] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:15:18.509] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:15:18.532] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:15:18.533] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 25
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:19:16.814] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:19:17.500] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:19:17.501] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:19:17.532] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:19:17.532] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 32
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:21:11.711] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:21:12.383] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:21:12.383] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:21:12.407] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:21:12.407] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 24
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:36:27.556] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 0
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:36:28.322] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:36:28.322] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:36:28.349] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:36:28.349] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 27
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:44:36.864] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/getUserInfo
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 1
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功!","result":{"privilegeMember":{},"account":{},"grade":{},"user":{"userId":6,"phone":"15088297010","email":"","loginPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","loginPwdLevel":"1","unionid":null,"pcqquid":null,"qquid":null,"alipayuid":null,"uuid":null,"registerTime":1526291661223,"registerTimeStr":"2018-05-14 17:54:21","status":"1","isSelf":null,"channel":"web","userInfoId":6,"userName":null,"idType":null,"idNo":null,"nickName":null,"userImg":null,"sex":"0","tel":null,"qqNumber":null,"birthday":"2018-05-14","address":null,"loginNum":2,"loginTime":1526346634012,"loginTimeStr":"2018-05-15 09:10:34","loginIp":null,"cardId":6,"cardNo":"600079","typeCode":"VIP2","typeName":"会员卡","cardPwd":"b095f8aeb16f2d2f7fd8af3edb9799c0","cardStatus":"0","loginType":null,"loginAccount":null,"loginCardType":null}}}
+*************** response log end ***************
+
+[2018-07-25T11:44:37.350] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T11:44:37.350] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CM100111.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","placeSign":"BANNERDVER"}}
+*************** info log end ***************
+
+[2018-07-25T11:44:37.390] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CM100111.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** info log end ***************
+
+[2018-07-25T11:44:37.390] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/indexBanner
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 40
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"banner":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":[{"adverId":239,"adverName":null,"placeId":2,"effectiveDate":1516636800000,"expiryDate":1548172800000,"imgSrc":"group1/M00/00/97/wKieqlpn6ESAYPzbAAC60dctgCM014.jpg","linkSrc":"http://www.baidu.com","status":2,"remark":null,"creatorId":null,"createTime":1529400212503,"adverOrder":4,"effectiveDateCh":"2018-01-23 00:00:00","expiryDateCh":"2019-01-23 00:00:00","createTimeCh":"2018-06-19 17:23:32","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":0,"adverType":"1","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":118,"adverName":null,"placeId":2,"effectiveDate":1509379200000,"expiryDate":1546185600000,"imgSrc":"group1/M00/00/17/wKieqloBcxSAHDJRAAJ6ZipxO7o589.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529890970296,"adverOrder":11,"effectiveDateCh":"2017-10-31 00:00:00","expiryDateCh":"2018-12-31 00:00:00","createTimeCh":"2018-06-25 09:42:50","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":50,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null},{"adverId":200,"adverName":null,"placeId":2,"effectiveDate":1516204800000,"expiryDate":1547740800000,"imgSrc":"group1/M00/00/94/wKieqlplq92AYo3dAADnXsZLaTo354.jpg","linkSrc":null,"status":2,"remark":null,"creatorId":null,"createTime":1529375981244,"adverOrder":23,"effectiveDateCh":"2018-01-18 00:00:00","expiryDateCh":"2019-01-18 00:00:00","createTimeCh":"2018-06-19 10:39:41","adverPlace":{"placeId":2,"placeName":"首页 - 置顶轮播Banner","placeWidth":750,"placeHeight":440,"creatorId":0,"createTime":1521531057594,"placeSign":"BANNERDVER","placeDesc":"首页轮番banner","adverList":null,"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null},"themeId":48,"adverType":"3","typeId":0,"siteFloorId":0,"shopSn":"","allShop":"1","shopName":null,"branch":"1001","channel":"6","branchName":"D5厨房","imgDetails":"","bsnum":null}],"placeType":1,"adverNum":0,"branch":"1001","channel":"6","placeTheme":null,"placeSize":null}}}
+*************** response log end ***************
+

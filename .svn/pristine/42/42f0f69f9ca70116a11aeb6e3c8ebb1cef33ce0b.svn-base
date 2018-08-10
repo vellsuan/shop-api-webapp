@@ -1,0 +1,158 @@
+"use strict";
+
+var Base = require("./../../controller/base/baseAction.js");
+var tools = require("../../utils/utils.js");
+var log = require("../../utils/logUtil.js")("shopAction");
+
+/**
+ * 购物车列表
+ * @param next
+ */
+exports.shoppingList = async (ctx, next) => {
+  var shopParam = Base.getParams(ctx);
+
+  var shopInfo = Base.getShopInfo(ctx);
+  var userInfo = Base.getUserInfo(ctx);
+  shopParam.userId = shopParam.userId || userInfo.user.userId;
+
+  shopParam.shopSn = shopParam.shopSn || shopInfo["shop_sn"];
+
+  shopParam.userShopPlatformKey =
+    shopParam.userId + "_" + shopParam.shopSn + "_platform0";
+
+  var json = await Base.shopService.shoppingList(shopParam);
+  if(json.code=="000000"){
+    var itemBranchList = json.result && json.result.osEntity &&  json.result.osEntity.itemBranchList || [];
+    var itemCookList = itemBranchList[0].itemCookList || [] // 外卖堂食数组
+    var supplierList = itemCookList[0].supplierList || [] // 供应商数组  我自己理解成以前的itemShopList
+    var productList = supplierList[0].productList || []
+    productList.forEach(element => {
+      element.product.cxPrice = element.product.price-(element.product.cxSubPrice / element.num);
+    });
+  }
+  
+  Base.getResponseRes(ctx, json);
+};
+
+/**
+ * 添加购物车
+ * @param next
+ *
+ * 	 { "productId": productId,   商品id /有活动活动id   activityproid||productId   必须
+ *    "activityproid":activityproid,  //活动id  必须
+ *    "price":price,  //金融   必须
+ *    "type": "add",  //操作类型   必须
+ *    "supplierId": supplierId || 0,  //供应商id  必须
+ *    "stock": stock,   //库存  非必须 不传默认为0
+ *     isApp：2， //渠道 非必须 不传默认为2
+ * 	   num：1  添加数量  非必须   默认为1
+ *     };
+ *
+ *
+ */
+exports.addCart = async (ctx, next) => {
+  var jsondata = Base.getParams(ctx);
+  var userInfo = Base.getUserInfo(ctx);
+  var shopInfo = Base.getShopInfo(ctx);
+  jsondata.userId = jsondata.userId || userInfo.user.userId || "";
+  jsondata.shopSn = shopInfo["shop_sn"];
+  jsondata.isApp = jsondata.isApp || "2";
+  jsondata.num = jsondata.num || "1";
+  jsondata.stock = jsondata.stock || "0";
+
+  jsondata.productId = jsondata.activityproid || jsondata.productId; //如果促销Id存在，原生商品Id 也应该传促销Id
+  if (jsondata.isInvite && jsondata.isInvite == "1") {
+    jsondata.userShopPlatformKey =
+      jsondata.userId + "_" + jsondata.shopSn + "_platform5";
+  } else {
+    jsondata.userShopPlatformKey =
+      jsondata.userId + "_" + jsondata.shopSn + "_platform0";
+  }
+  var stock = jsondata.stock || "0";
+  var stockData = await Base.shopService.getCartNum(jsondata);
+  if (stockData.code !== "000000") {
+    Base.getResponseRes(ctx, stockData);
+    return;
+  }
+  var strs = stockData.result || null;
+  if (strs && Number(strs.num || 0) + Number(jsondata.num) > Number(stock)) {
+    Base.getResponseRes(ctx, { code: "222222", message: "商品数量不足！" });
+  } else {
+    var jsdata = "";
+    if (!jsondata.activityproid) {
+      jsdata = await Base.shopService.addGoCart(jsondata, strs.num);
+    } else {
+      if (
+        jsondata.activityproid.indexOf("MJ") != "-1" ||
+        jsondata.activityproid.indexOf("TG") != "-1"
+      ) {
+        //满减
+        jsdata = await Base.shopService.addGoCart(jsondata, strs.num);
+      } else {
+        jsondata.productId = jsondata.activityproid || jsondata.productId || "";
+        jsdata = await Base.shopService.CKAddRefshCart(jsondata, strs.num);
+      }
+    }
+    Base.getResponseRes(ctx, jsdata);
+  }
+};
+
+/**
+ * 删除购物车
+ * @param next
+ * { "productId": productId,  活动id||商品id
+ *   "type": "del", 操作类型
+ *    "num": num,  当前数量
+ *    "activityproid":activityproid   //活动id
+ *     isSend：2， //渠道 非必须 不传默认为2
+ *
+ * };
+ */
+exports.delCart = async (ctx, next) => {
+  var jsondata = Base.getParams(ctx);
+  var shopInfo = Base.getShopInfo(ctx);
+  var userInfo = Base.getUserInfo(ctx);
+  jsondata.userId = jsondata.userId || userInfo.user.userId || "";
+  jsondata.shopSn = jsondata.shopSn || shopInfo["shop_sn"];
+  jsondata.isSend = jsondata.isSend || "1";
+  if (jsondata.isInvite && jsondata.isInvite == "1") {
+    jsondata.userShopPlatformKey =
+      jsondata.userId + "_" + jsondata.shopSn + "_platform5";
+  } else {
+    jsondata.userShopPlatformKey =
+      jsondata.userId + "_" + jsondata.shopSn + "_platform0";
+  }
+  var resData = "";
+  if (!jsondata.activityproid) {
+    if (jsondata.num == 0) {
+      resData = await Base.shopService.deleteCart(jsondata);
+    } else {
+      resData = await Base.shopService.updateCart(jsondata);
+    }
+  } else {
+    if (
+      jsondata.activityproid.indexOf("MJ") != "-1" ||
+      jsondata.activityproid.indexOf("TG") != "-1"
+    ) {
+      //满减
+      if (jsondata.num == 0) {
+        resData = await Base.shopService.deleteCart(jsondata);
+      } else {
+        resData = await Base.shopService.updateCart(jsondata);
+      }
+    } else {
+      jsondata.num = "1"; //优惠大促删除购物车只能传1
+      resData = await Base.shopService.CKAddRefshCart(jsondata);
+      if (jsondata.cxType && jsondata.cxType == "1") {
+        await doJieSuanFun.call(ctx);
+      }
+    }
+  }
+  var dataHandle = resData.result || null;
+  if (resData.code === "000000" && dataHandle.checkCode == "111111") {
+    var json = { code: "222222", message: dataHandle.msg, result: dataHandle };
+    Base.getResponseRes(ctx, json);
+  } else {
+    Base.getResponseRes(ctx, resData);
+  }
+};

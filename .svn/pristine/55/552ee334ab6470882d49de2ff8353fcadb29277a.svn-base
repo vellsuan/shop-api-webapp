@@ -1,0 +1,34 @@
+"use strict";
+var indexService = require("../../service/home/indexService.js");
+var Base = require("./../../controller/base/baseAction.js");
+var Wechat = require("../../wechat-api/Wechat.js");
+
+var log = require("../../utils/logUtil.js")("indexAction");
+
+// 首页banner
+exports.indexBanner = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  params.maxLen = "1";
+  params.placeSign = "BANNERDVER";
+  var data = await indexService.indexBanner(params);
+  var json = {
+    code: data.code,
+    message: data.message,
+    result: data.result || ""
+  };
+  Base.getResponseRes(ctx, json);
+};
+
+// 品牌数据
+exports.brandlist = async (ctx, next) => {
+  var params = Base.getParams(ctx);
+  params.maxLen = "1";
+  params.placeSign = "BANNERDVER";
+  var data = await indexService.brandlist(params);
+  var json = {
+    code: data.code,
+    message: data.message,
+    result: data.result || ""
+  };
+  Base.getResponseRes(ctx, json);
+};

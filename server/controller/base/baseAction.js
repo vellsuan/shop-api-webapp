@@ -1,0 +1,193 @@
+'use strict'
+var captchapng = require("captchapng");
+var log = require("../../utils/logUtil.js")("/controller/base/baseAction");
+var tools = require("../../utils/utils.js");
+var config = require("../../config/config.js");
+var path = require("path");
+
+/**
+ *  获取请求参数
+ * @param {Object} ctx
+ */
+function getParams(ctx) {
+	if(!ctx){
+		log.info("getParams方法获取请求数据时ctx或this不能为空，请检查所传输的ctx参数")
+		return {};
+	}
+	let resfulParams = ctx.params || {},
+		bodyParams = ctx.request.body || {},
+		queryParams = ctx.request.query || {};
+	let params = tools.extend(resfulParams, bodyParams, queryParams) || {};
+	log.info("获取请求参数 ==> " + JSON.stringify(params));
+	return params;
+}
+
+/**
+ * 保存session
+ * @param {Object} session
+ * @param {Object} key
+ * @param {Object} data
+ */
+function saveSessionData(ctx, key, data) {
+	if(!key || !ctx || !data) return "";
+	var session = ctx&&ctx.session||ctx;
+	if(null == session["sessionConstant"] || !session["sessionConstant"]) {
+		session["sessionConstant"] = {};
+	}
+	session["sessionConstant"][key] = data;
+}
+
+/**
+ * 更新session
+ * @param  {[type]} session [description]
+ * @param  {[type]} key     [description]
+ * @param  {[type]} data    [description]
+ * @return {[type]}         [description]
+ */
+function updateSessionData(ctx, key, info) {
+	var session = ctx.session||ctx;
+	var data = getSessionData(session, key);
+	var result = tools.extend(data, info);
+	saveSessionData(session, key, result);
+}
+
+/**
+ * 获取session
+ * @param {Object} session
+ * @param {Object} key
+ */
+function getSessionData(ctx, key) {
+	if(!key) return "";
+	var session = ctx&&ctx.session||ctx;
+	if(session&&!session["sessionConstant"]) {
+		session["sessionConstant"] = {};
+	}
+	return session["sessionConstant"][key] || "";
+}
+
+function clearLoginData(that) {
+	that.cookies.set("authorization", "");
+	that.cookies.set("koa.sid", "");
+	that.cookies.set("koa.sid.sig", "");
+	that.session["sessionConstant"] = "";
+}
+
+function getImgbase64(session) {
+	/*var code = '0123456789';
+	var length = 4;
+	var randomcode = '';
+	for (var i = 0; i < length; i++) {
+	    randomcode += code[parseInt(Math.random() * 1000) % code.length];
+	}*/
+	var randomcode = parseInt(Math.random() * 9000 + 1000);
+	// 输出图片
+	var p = new captchapng(162, 46, parseInt(randomcode)); // width,height,numeric captcha
+	p.color(255, 255, 255, 0); // First color: background (red, green, blue, alpha)
+	p.color(80, 80, 80, 255); // Second color: paint (red, green, blue, alpha)
+	var imgbase64 = p.getBase64();
+	saveSessionData(session, "sessionConstant_randomcode", randomcode);
+	return imgbase64;
+}
+
+/**
+ * 处理返回结果
+ * @param req
+ * @param code
+ * @param message
+ * @param data
+ * @returns {string}
+ */
+function getResponseRes(res, data) {
+	var dataStr = data.result || {};
+	var code = data.code || "000000";
+	var message = data.message || "业务处理成功!";
+	var json = {
+		"code": code,
+		"message": message,
+		"result": dataStr
+	};
+	res.body = json;
+}
+/**
+ * 设置返回数据
+ * @param {[type]} result  [description] result需要使用的数据
+ * @param {[type]} data [description]  接口返回的完整结果
+ */
+function setResponseRes(result, data) {
+	return {
+		code: data.code || "777777",
+		message: data.message || "接口返回异常",
+		result: result
+	};
+}
+
+/**
+ *获取客户端IP
+ * @param req
+ * @returns {*}
+ */
+function getClientIp(req) {
+	return "223.223.202.229" ||
+		req.headers['x-forwarded-for'] ||
+		req.connection.remoteAddress ||
+		req.socket.remoteAddress ||
+		req.connection.socket.remoteAddress;
+};
+
+/**
+ * 获用户信息
+ * @param _t
+ * @returns {*}
+ */
+function getUserInfo(ctx) {
+	return getSessionData(ctx.session, "sessionConstant_userInfo");
+}
+
+/**
+ * 获取门店信息
+ * @param _t
+ * @returns {*}
+ */
+function getShopInfo(ctx) {
+	return getSessionData(ctx.session, "sessionConstant_shopInfo") || {shopSn:'B00019',shop_sn:'B00019'};
+}
+
+/**
+ * 服务器端对html渲染
+ * @param {*} ctx
+ * @param {*} html_file
+ */
+var htmlRender  = async (ctx, fpath) =>{
+	if(!fpath){
+		log.info("htmlRender 中 fpath 不能为空！");
+		return ;
+	}
+	var html_file = path.join(__dirname,"../../../dist/"+fpath+".html");
+	console.log(html_file);
+	var html_str =  await tools.readFileAsync(html_file,"utf-8");
+	ctx.body = html_str||"对不起，页面不存在！"
+}
+
+exports.getParams = getParams;
+exports.saveSessionData = saveSessionData;
+exports.getSessionData = getSessionData;
+exports.getImgbase64 = getImgbase64;
+exports.getResponseRes = getResponseRes;
+exports.clearLoginData = clearLoginData;
+exports.updateSessionData = updateSessionData;
+exports.setResponseRes = setResponseRes;
+exports.getClientIp = getClientIp;
+exports.getShopInfo = getShopInfo;
+exports.getUserInfo = getUserInfo;
+exports.htmlRender = htmlRender
+
+exports.loginService = require('../../service/base/loginService.js');
+exports.tokenService = require('../../service/base/tokenService.js');
+exports.mapService = require("../../service/base/mapService.js");
+exports.payService = require("../../service/base/payService.js");
+exports.wecahtService = require("../../service/base/wecahtService.js");
+
+exports.indexService = require("../../service/home/indexService.js");
+exports.assortService = require("../../service/home/assortService.js");
+exports.shopService = require("../../service/home/shopService.js");
+exports.userService = require("../../service/home/userService.js");

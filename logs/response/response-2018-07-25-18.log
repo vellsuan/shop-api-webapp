@@ -1,0 +1,336 @@
+[2018-07-25T18:00:07.898] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}
+*************** info log end ***************
+
+[2018-07-25T18:00:07.899] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300002.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}}
+*************** info log end ***************
+
+[2018-07-25T18:00:07.936] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{}}
+*************** info log end ***************
+
+[2018-07-25T18:00:07.936] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddressDefault
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}
+response time: 39
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{}}
+*************** response log end ***************
+
+[2018-07-25T18:00:10.593] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"381","isHost":"1"}
+*************** info log end ***************
+
+[2018-07-25T18:00:10.594] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300002.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"381","isHost":"1"}}
+*************** info log end ***************
+
+[2018-07-25T18:00:10.629] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{}}
+*************** info log end ***************
+
+[2018-07-25T18:00:10.629] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddressDefault
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"381","isHost":"1"}
+response time: 36
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{}}
+*************** response log end ***************
+
+[2018-07-25T18:01:54.775] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}
+*************** info log end ***************
+
+[2018-07-25T18:01:54.776] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300002.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}}
+*************** info log end ***************
+
+[2018-07-25T18:01:54.807] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{}}
+*************** info log end ***************
+
+[2018-07-25T18:01:54.807] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddressDefault
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}
+response time: 32
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{}}
+*************** response log end ***************
+
+[2018-07-25T18:08:05.363] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"381","isHost":"1"}
+*************** info log end ***************
+
+[2018-07-25T18:08:05.364] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300002.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"381","isHost":"1"}}
+*************** info log end ***************
+
+[2018-07-25T18:08:05.395] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{}}
+*************** info log end ***************
+
+[2018-07-25T18:08:05.396] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddressDefault
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"381","isHost":"1"}
+response time: 33
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{}}
+*************** response log end ***************
+
+[2018-07-25T18:09:03.885] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-25T18:09:03.885] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-25T18:09:03.932] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":3,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":381,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"0","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":376,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"null","longitude":"null"}]}}}
+*************** info log end ***************
+
+[2018-07-25T18:09:03.932] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}
+response time: 48
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":3,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":381,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"0","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":376,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"null","longitude":"null"}]}}}
+*************** response log end ***************
+
+[2018-07-25T18:15:07.516] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-25T18:15:07.516] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-25T18:15:07.568] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":3,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":381,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"0","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":376,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"null","longitude":"null"}]}}}
+*************** info log end ***************
+
+[2018-07-25T18:15:07.568] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}
+response time: 53
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":3,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":381,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"0","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":376,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"null","longitude":"null"}]}}}
+*************** response log end ***************
+
+[2018-07-25T18:15:11.830] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"0"}
+*************** info log end ***************
+
+[2018-07-25T18:15:11.830] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300002.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"0"}}
+*************** info log end ***************
+
+[2018-07-25T18:15:11.862] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{}}
+*************** info log end ***************
+
+[2018-07-25T18:15:11.862] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddressDefault
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"0"}
+response time: 32
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{}}
+*************** response log end ***************
+
+[2018-07-25T18:15:16.413] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}
+*************** info log end ***************
+
+[2018-07-25T18:15:16.413] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300002.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}}
+*************** info log end ***************
+
+[2018-07-25T18:15:16.446] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300002.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{}}
+*************** info log end ***************
+
+[2018-07-25T18:15:16.447] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddressDefault
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377","isHost":"1"}
+response time: 34
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{}}
+*************** response log end ***************
+
+[2018-07-25T18:15:17.961] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377"}
+*************** info log end ***************
+
+[2018-07-25T18:15:17.962] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"377"}}
+*************** info log end ***************
+
+[2018-07-25T18:15:17.985] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"}}}
+*************** info log end ***************
+
+[2018-07-25T18:15:17.985] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377"}
+response time: 24
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"}}}
+*************** response log end ***************
+
+[2018-07-25T18:15:23.541] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377"}
+*************** info log end ***************
+
+[2018-07-25T18:15:23.541] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300005.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","id":"377"}}
+*************** info log end ***************
+
+[2018-07-25T18:15:23.563] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300005.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"}}}
+*************** info log end ***************
+
+[2018-07-25T18:15:23.563] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryPersonal
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","id":"377"}
+response time: 22
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"entity":{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"}}}
+*************** response log end ***************
+
+[2018-07-25T18:15:29.295] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+*************** info log end ***************
+
+[2018-07-25T18:15:29.295] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300001.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300001.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2"}}
+*************** info log end ***************
+
+[2018-07-25T18:15:29.314] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300001.do ]返回数据 ===>{"code":"777777","message":"城市最底层编码不能为空","result":{}}
+*************** info log end ***************
+
+[2018-07-25T18:15:29.314] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddPer
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2"}
+response time: 19
+response status: 200
+response body: 
+{"code":"777777","message":"城市最底层编码不能为空","result":{}}
+*************** response log end ***************
+
+[2018-07-25T18:26:18.009] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 获取请求参数 ==> {"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}
+*************** info log end ***************
+
+[2018-07-25T18:26:18.009] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]请求数据 ===>{"url":"http://49.4.5.233:8117/org/business/CR300004.do","method":"POST","json":true,"headers":{"Content-Type":"application/x-www-form-urlencoded; charset=UTF-8","merchantNo":"000006","signType":"MD5","developToken":"000006","tokenPassword":"1qaz2wsx"},"form":{"isApp":"2","channelNo":"1000002","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}}
+*************** info log end ***************
+
+[2018-07-25T18:26:18.066] [INFO] /middleware/auth - 
+*************** info log start ***************
+info body: 接口地址[ http://49.4.5.233:8117/org/business/CR300004.do ]返回数据 ===>{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":3,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":381,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"0","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":376,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"null","longitude":"null"}]}}}
+*************** info log end ***************
+
+[2018-07-25T18:26:18.067] [INFO] /middleware/auth - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/usercenter/queryAddress
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"isApp":"2","channelNo":"1000001","maxLen":"1","branch":"1001","channel":"2","userId":"1500"}
+response time: 58
+response status: 200
+response body: 
+{"code":"000000","message":"业务处理成功！","result":{"page":{"totalRowCount":3,"totalPage":1,"pageRowCount":10,"currentPageNu":1,"startPageRowCount":0,"endPageRowCount":10,"datas":[{"id":381,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001005","isHost":"1","sex":"0","address":"北京市朝阳区东三环北路28","houseNumber":null,"postCode":"","areas":"北京市 北京市 朝阳区","signArea":"博瑞大厦","latitude":"39.933780075532866","longitude":"116.46902299999994"},{"id":377,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区镇国寺北街13号楼2层","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"27度罗马风情婚纱影城","latitude":"39.844541082389355","longitude":"116.35729299999993"},{"id":376,"userId":1500,"name":"18618196312","phone":"","mobile":"18618196312","districtCode":"001001001006","isHost":"1","sex":"0","address":"北京市丰台区菜户营南路辅路","houseNumber":null,"postCode":"","areas":"北京市 北京市 丰台区","signArea":"北京111文化产业园","latitude":"null","longitude":"null"}]}}}
+*************** response log end ***************
+

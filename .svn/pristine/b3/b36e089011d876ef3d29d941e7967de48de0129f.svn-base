@@ -1,0 +1,35 @@
+'use strict'
+var Base = require('./baseAction.js');
+var log = require("../../utils/logUtil.js")("loginAction");
+
+/**
+ * 微信公众号登录
+ * @param next
+ */
+var loginWx = async(request, userinfo) => {
+    var data = {
+        "nickName": userinfo.nickname || "",
+        "sex": userinfo.sex,
+        "unionid": userinfo.openid,
+        "userImg": userinfo.headimgurl || "http://weixin.brunocaffe.cn/images/headPortrait.png"
+    };
+    var userdata = await Base.loginService.wxLogin(data);
+    
+    if (userdata&&userdata.result&&userdata.result.user) {
+        userdata = userdata.result;
+        var data = await Base.tokenService.checkAndIssueToken(request, userdata.user);
+        if (data && data.userId) {
+            userdata.token = data.token || "";
+            userdata.user.loginPwd = "1q2w3e4r5t";
+           // await Base.userService.userUpdate(userdata.user);
+            userdata.user.loginPwd = "";
+            userdata = { "code": "000000", "message": "业务处理成功！", "result": userdata };
+        } else {
+            userdata = { "code": "222222", "message": "系统异常！", "result": {} };
+        }
+    } else {
+        userdata = { "code": "222222", "message": userdata.message || "系统异常！", "result": {} };
+    }
+    return userdata
+}
+exports.loginWx = loginWx;

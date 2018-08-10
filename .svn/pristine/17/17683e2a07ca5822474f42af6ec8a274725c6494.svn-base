@@ -1,0 +1,56 @@
+{
+	"code": "000000",
+	"message": "业务处理成功！",
+	"result": {
+		"privilegeMember": {
+
+		},
+		"account": {
+
+		},
+		"grade": {
+
+		},
+		"user": {
+			"userId": 6,
+			"phone": "15088297010",
+			"email": "",
+			"loginPwd": "b095f8aeb16f2d2f7fd8af3edb9799c0",
+			"loginPwdLevel": "1",
+			"unionid": null,
+			"pcqquid": null,
+			"qquid": null,
+			"alipayuid": null,
+			"uuid": null,
+			"registerTime": 1526291661223,
+			"registerTimeStr": "2018-05-14 17:54:21",
+			"status": "1",
+			"isSelf": null,
+			"channel": "web",
+			"userInfoId": 6,
+			"userName": null,
+			"idType": null,
+			"idNo": null,
+			"nickName": null,
+			"userImg": null,
+			"sex": "0",
+			"tel": null,
+			"qqNumber": null,
+			"birthday": "2018-05-14",
+			"address": null,
+			"loginNum": 2,
+			"loginTime": 1526346634012,
+			"loginTimeStr": "2018-05-15 09:10:34",
+			"loginIp": null,
+			"cardId": 6,
+			"cardNo": "600079",
+			"typeCode": "VIP2",
+			"typeName": "会员卡",
+			"cardPwd": "b095f8aeb16f2d2f7fd8af3edb9799c0",
+			"cardStatus": "0",
+			"loginType": null,
+			"loginAccount": null,
+			"loginCardType": null
+		}
+	}
+}
